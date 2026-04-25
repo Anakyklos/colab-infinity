@@ -2,7 +2,7 @@
 
 **Projeto:** Colab Infinity
 **Versão:** 1.0.0
-**Status:** Aprovado
+**Referências:** `01_project_charter.md`, `02_srs.md`, `03_architecture.md`
 **Referências:** `01_project_charter.md`, `06_runbook.md`
 
 Este documento enumera, cataloga e propõe mitigações para as potenciais fragilidades arquiteturais e operacionais da adoção do Google Colab Gratuito roteado via Ngrok para produção em MLOps.
