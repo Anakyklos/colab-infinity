@@ -3,7 +3,7 @@
 **Projeto:** Colab Infinity
 **Versão:** 1.0.0
 **Status:** Aprovado
-
+**Referências:** `03_architecture.md`, `05_setup_guide.md`, `08_risk_analysis.md`
 Este Runbook provê diretrizes para a manutenção do ciclo de vida, Troubleshooting contínuo de conectividade e contorno rápido de anomalias na infraestrutura do Colab Infinity baseada em **Ngrok**.
 
 ---
