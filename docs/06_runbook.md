@@ -53,7 +53,7 @@ Eventos que são parte do ciclo de vida esperado do Colab e são resolvidos auto
 4. Reinicie o Orquestrador.
 
 ### Incidente 3.3: Falha na Sincronização do Drive
-**Sintoma:** O proxy do orquestrador aponta continuamente para uma URL de Ngrok antiga que já foi desligada, gerando `502 Bad Gateway` constante, mesmo que a conta tenha rotacionado perfeitamente no Google Colab.
+1. Verifique manualmente o arquivo em `colab_infinity/pool_state/ngrok_url.json` via Web UI do Drive.
 **Causa:** A conta Mestre (Armazém) no Google Drive está com atraso massivo na sincronização ou o token de API do Drive expirou para o nó de escrita.
 **Ação Imediata:**
 1. Verifique manualmente o arquivo em `hermes_infinito/pool_state/ngrok_url.json` via Web UI do Drive.
