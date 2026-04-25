@@ -3,7 +3,7 @@
 **Projeto:** Colab Infinity
 **Versão:** 1.0.0
 **Status:** Aprovado
-**Compatibilidade:** OpenAI API (v1)
+**Referências:** `03_architecture.md`, `02_srs.md`
 
 ---
 
