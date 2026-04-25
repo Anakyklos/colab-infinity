@@ -10,7 +10,7 @@ Utilize este checklist antes de iniciar um ciclo longo de execução do Orquestr
 
 ## 1. Verificações de Infraestrutura de Nuvem
 
-- [ ] **Limpeza do Drive (Armazém):** Arquivos residuais em `hermes_infinito/pool_state/ngrok_url.json` foram limpos, evitando leituras acidentais de URLs mortas.
+- [ ] **Limpeza do Drive (Armazém):** Arquivos residuais em `colab_infinity/pool_state/ngrok_url.json` foram limpos, evitando leituras acidentais de URLs mortas.
 - [ ] **Contas Ngrok (Painel):** Acessou `dashboard.ngrok.com` de cada conta *worker* e confirmou que "Tunnels Online = 0" (Garantindo que não há sessões zombies consumindo o *Free Tier*).
 - [ ] **Google Colab (Limpeza):** Garantiu que não há instâncias de GPU ativas travadas nas contas associadas antes de acionar o Orquestrador.
 
