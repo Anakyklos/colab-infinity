@@ -2,7 +2,7 @@
 
 **Projeto:** Colab Infinity
 **Versão:** 1.0.0
-**Status:** Aprovado
+**Referências:** `02_srs.md`, `03_architecture.md`, `04_api_spec.md`
 
 Este documento especifica as rotinas de verificação de qualidade (QA) necessárias para atestar que o Colab Infinity orquestra com sucesso as máquinas efêmeras e provê um serviço compatível para inferência via Ngrok.
 
