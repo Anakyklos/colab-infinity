@@ -12,7 +12,7 @@ Este documento é voltado para Engenheiros de DevOps, MLOps e Desenvolvedores im
 ## 1. Pré-Requisitos
 
 ### 1.1 Conta Google Armazém (Master State)
-1. Crie ou separe uma Conta do Google Drive especificamente para atuar como Armazém.
+2. Na raiz do Drive desta conta, crie a pasta: `colab_infinity/pool_state`.
 2. Na raiz do Drive desta conta, crie a pasta: `hermes_infinito/pool_state`.
 3. Essa é a conta onde os metadados (como o `ngrok_url.json`) serão persistidos. Compartilhe acesso de Edição desta pasta com todas as contas de *Workers*.
 
