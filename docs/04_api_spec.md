@@ -52,7 +52,7 @@ Gera respostas de chat seguindo o fluxo contínuo de conversas.
   "model": "mistralai/Mistral-7B-Instruct-v0.2",
   "choices": [
     {
-      "index": 0,
+> `http://127.0.0.1:11434/v1`.
       "message": {
         "role": "assistant",
         "content": "O universo é uma vasta e complexa expansão de espaço-tempo. Abriga bilhões de galáxias regidas pelas leis fundamentais da física."
