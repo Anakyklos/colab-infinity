@@ -117,6 +117,20 @@ Colab Infinity being absent must not disable unrelated missions.
 
 Runstead may use bounded compute leases for appropriate software-engineering workloads. Colab Infinity does not become a coding agent and does not inherit Runstead's technical verification authority.
 
+## Stack direction
+
+The implementation direction is intentionally split by responsibility:
+
+- **Go** owns the persistent/local control plane, `ComputeLease` lifecycle, provider adapters, cancellation, budgets, reconciliation and CLI/IPC surfaces;
+- **SQLite** is the authoritative durable local store for lease lifecycle state;
+- **Python** is the preferred ephemeral worker language for AI/ML, data, scientific and GPU-heavy workloads;
+- **JSON manifests + artifacts** define workload input/output contracts and keep workloads provider-independent when practical;
+- heavyweight Python/AI dependencies should exist only inside the worker/workload environment when required.
+
+Playwright/Selenium, Ngrok, FastAPI as a mandatory worker server, Google Drive as authoritative state, and account/session rotation are **not** part of the new core architecture.
+
+See [`12_stack_direction.md`](12_stack_direction.md) and `Anakyklos/architecture/adr/0002-colab-infinity-stack.md` for the detailed decision and rationale.
+
 ## Legacy direction
 
 Documents `01`–`10` describe the historical design centered on continuous free LLM inference and Google-Colab-specific infrastructure.
